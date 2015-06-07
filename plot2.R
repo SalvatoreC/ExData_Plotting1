@@ -1,5 +1,5 @@
 # the local file is read
-ocalFile <- "./household_power_consumption.txt"
+localFile <- "./household_power_consumption.txt"
 fullData <- read.table(localFile, sep = ";", na.strings = "?", header = TRUE)
 
 # data of interest are selected
