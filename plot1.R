@@ -11,7 +11,7 @@ hist(gap, col = "red", main = "Global Active Power",
      xlab = "Global Active Power (kilowatts)")
 
 # plot1 is produced on the png device
-png(file = "plot1.png")
+png(file = "plot1.png", width = 480, height = 480)
 hist(gap, col = "red", main = "Global Active Power",
      xlab = "Global Active Power (kilowatts)")
 dev.off()

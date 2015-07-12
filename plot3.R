@@ -25,7 +25,7 @@ legend("topright",
        lwd = c(2.5,2.5,2.5))
 
 # plot3 is produced on the png device
-png(file = "plot3.png")
+png(file = "plot3.png", width = 480, height = 480)
 plot(asseX, asseY1, type = "l", col = "black", xlab = "datetime", ylab = "Energy sub metering")
 points(asseX, asseY2, type = "l", col = "red")
 points(asseX, asseY3, type = "l", col = "blue")

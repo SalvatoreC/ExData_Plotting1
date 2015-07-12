@@ -14,6 +14,6 @@ asseY <- as.numeric(as.character(myData$Global_active_power))
 plot(asseX, asseY, type = "l", xlab = "datetime", ylab = "Global Active Power (kilowatts)")
 
 # plot2 is produced on the png device
-png(file = "plot2.png")
+png(file = "plot2.png", width = 480, height = 480)
 plot(asseX, asseY, type = "l", xlab = "datetime", ylab = "Global Active Power (kilowatts)")
 dev.off()

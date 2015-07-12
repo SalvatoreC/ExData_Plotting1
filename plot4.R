@@ -38,7 +38,7 @@ legend("topright",
 plot(asseX, asseY5, type = "l", xlab = "datetime", ylab = "Global_reactive_power")
 
 # plot4 is produced on the png device
-png(file = "plot4.png")
+png(file = "plot4.png", width = 480 , height = 480)
 par(mfrow = c(2,2))
 
 plot(asseX, asseY, type = "l", xlab = "datetime", ylab = "Global Active Power (kilowatts)")
